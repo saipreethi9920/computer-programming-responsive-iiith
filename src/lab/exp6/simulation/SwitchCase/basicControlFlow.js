@@ -247,7 +247,7 @@ window.view = {
 				this.setInnerHtml('outputDayId', 'HOLIDAY');
 	 		}
 	 	}
-		if (model.inputNumber === 6) {
+			if (model.inputNumber === 6) {
 	 		if (this.nextSiblingElement.id === 'holidayId') {
 				this.codeExecutionWithColour();
 				this.changeOpacity('holidayImage');
